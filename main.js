@@ -6,6 +6,22 @@ const selectElement = (selector) => {
   );
 };
 
+const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    var myCollapse = document.getElementById("main-nav");
+    var bsCollapse = new bootstrap.Collapse(myCollapse, {
+      hide: true,
+    });
+  });
+});
+window.onload = function () {
+  document.getElementById("preloader").classList.add("opacity-0");
+  setTimeout(() => {
+    document.getElementById("preloader").classList.add("d-none");
+  }, 1000);
+};
 const date = selectElement("#date");
 date.textContent = new Date().getFullYear();
 
