@@ -1,0 +1,33 @@
+section {
+  padding: 60px 0;
+}
+
+.text-holder {
+  width: 70%;
+  margin-top: 6rem;
+}
+
+.sectoin-two-text {
+  width: 75%;
+  height: 300px;
+}
+
+.section-three-text {
+  width: 70%;
+}
+
+.section-four-img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #6c757d !important;
+}
+/*# sourceMappingURL=style.css.map */
